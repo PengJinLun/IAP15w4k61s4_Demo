@@ -50,7 +50,7 @@ void IapIdle()
 /*----------------------------------
 从ISP/IAP/EEPROM区域读取一个字节	
 ----------------------------------*/
-u8 IapReadByte(u16 addr)
+unsigned char IapReadByte(unsigned int addr)
 {
  unsigned char dat;				 //数据缓冲区
  IAP_CONTR=ENABLE_IAP;	 //使能IAP	   同时设置等待时间

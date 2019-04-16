@@ -1,5 +1,5 @@
 #include "inner_eeprom_api.h"
-
+//#include "uart_api.h"
 
 void  inner_eeprom_read(unsigned int addr, 
 			  unsigned char *buffer, unsigned int cnt)
@@ -20,15 +20,23 @@ void  inner_eeprom_write (unsigned int addr,
 	
 }
 
-
+ 
+/*----------------------------------
+- 	function:擦出指定地址的扇区
+-	input :	addr  要擦出地址的扇区
+-	output: 0:擦出扇区成功
+----------------------------------*/
 bit inner_eeprom_erase(unsigned int addr)
 {
 	int i;
-	char buff[512] = {0};
+	char c;
 	IapEraseSector(addr);
 	for(i = 0; i < 512; i++){
-		if(iapReadByte(addr + i) != 0xff)
-			return 1;
+	  // putc(IapReadByte(addr + i))  ;  		
+	   if(IapReadByte(addr + i) != 0xFF)
+	   	return 1;
 	}
+	return 0;
+	
 }
 

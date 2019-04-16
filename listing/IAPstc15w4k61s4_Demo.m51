@@ -1,12 +1,12 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        04/16/2019  18:37:16  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        04/16/2019  22:28:20  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-D:\KEIL4\C51\BIN\BL51.EXE .\output\led_api.obj, .\output\time_api.obj, .\output\uart_api.obj, .\output\exint_api.obj, .\
->> output\inner_eeprom_api.obj, .\output\time0_drv.obj, .\output\led_drv.obj, .\output\time1_drv.obj, .\output\uart0_drv
->> .obj, .\output\exint1_drv.obj, .\output\inner_eeprom_drv.obj, .\output\common.obj, .\output\printf.obj, .\output\led_
->> demo.obj, .\output\time_demo.obj, .\output\uart_demo.obj, .\output\exint_demo.obj, .\output\inner_eeprom_demo.obj, .\
->> output\main.obj TO .\output\IAPstc15w4k61s4_Demo PRINT (.\listing\IAPstc15w4k61s4_Demo.m51) RAMSIZE (256)
+D:\KEIL_V4\C51\BIN\BL51.EXE .\output\led_api.obj, .\output\time_api.obj, .\output\uart_api.obj, .\output\exint_api.obj, 
+>> .\output\inner_eeprom_api.obj, .\output\time0_drv.obj, .\output\led_drv.obj, .\output\time1_drv.obj, .\output\uart0_d
+>> rv.obj, .\output\exint1_drv.obj, .\output\inner_eeprom_drv.obj, .\output\common.obj, .\output\printf.obj, .\output\le
+>> d_demo.obj, .\output\time_demo.obj, .\output\uart_demo.obj, .\output\exint_demo.obj, .\output\inner_eeprom_demo.obj, 
+>> .\output\main.obj TO .\output\IAPstc15w4k61s4_Demo PRINT (.\listing\IAPstc15w4k61s4_Demo.m51) RAMSIZE (256)
 
 
 MEMORY MODEL: LARGE
@@ -32,34 +32,34 @@ INPUT MODULES INCLUDED:
   .\output\exint_demo.obj (EXINT_DEMO)
   .\output\inner_eeprom_demo.obj (INNER_EEPROM_DEMO)
   .\output\main.obj (MAIN)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C_STARTUP)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?COPY)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?CLDPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?CLDOPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?CSTPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?CSTOPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?IMUL)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?IILDX)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?ILDIX)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?ILDPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?ULDIV)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?SLDIV)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?LNEG)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?ULCMP)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?SLSHR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?LSTXDATA)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?LSTKXDATA)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?PLDPTR)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?ICALL)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C_INIT)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?PLDIDATA)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?PLDXDATA)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?PLDPDATA)
-  D:\KEIL4\C51\LIB\C51L.LIB (?C?PLDCODE)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C_STARTUP)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?COPY)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?CLDPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?CLDOPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?CSTPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?CSTOPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?IMUL)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?IILDX)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?ILDIX)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?ILDPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?ULDIV)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?SLDIV)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?LNEG)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?ULCMP)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?SLSHR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?LSTXDATA)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?LSTKXDATA)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?PLDPTR)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?ICALL)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C_INIT)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?PLDIDATA)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?PLDXDATA)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?PLDPDATA)
+  D:\KEIL_V4\C51\LIB\C51L.LIB (?C?PLDCODE)
 
 
 LINK MAP OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 2
 
 
 
@@ -113,55 +113,55 @@ LINK MAP OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
             CODE    038AH     0228H     UNIT         ?PR?_MY_VPRINTF?PRINTF
             CODE    05B2H     0200H     UNIT         ?CO?INNER_EEPROM_DEMO
             CODE    07B2H     0191H     UNIT         ?PR?_OUT_NUM?PRINTF
-            CODE    0943H     00F7H     UNIT         ?PR?INNER_EEPROM_DEMO?INNER_EEPROM_DEMO
-            CODE    0A3AH     008CH     UNIT         ?C_C51STARTUP
-            CODE    0AC6H     0066H     UNIT         ?PR?_INNER_EEPROM_READ?INNER_EEPROM_API
-            CODE    0B2CH     0066H     UNIT         ?PR?_TIME0_CFG?TIME0_DRV
-            CODE    0B92H     0064H     UNIT         ?PR?_INNER_EEPROM_WRITE?INNER_EEPROM_API
-            CODE    0BF6H     0063H     UNIT         ?PR?_TIME1_CFG?TIME1_DRV
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 3
+            CODE    0943H     00FBH     UNIT         ?PR?INNER_EEPROM_DEMO?INNER_EEPROM_DEMO
+            CODE    0A3EH     008CH     UNIT         ?C_C51STARTUP
+            CODE    0ACAH     0066H     UNIT         ?PR?_INNER_EEPROM_READ?INNER_EEPROM_API
+            CODE    0B30H     0066H     UNIT         ?PR?_TIME0_CFG?TIME0_DRV
+            CODE    0B96H     0064H     UNIT         ?PR?_INNER_EEPROM_WRITE?INNER_EEPROM_API
+            CODE    0BFAH     0063H     UNIT         ?PR?_TIME1_CFG?TIME1_DRV
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 3
 
 
-            CODE    0C59H     0061H     UNIT         ?PR?_UART0_INIT?UART0_DRV
-            CODE    0CBAH     0048H     UNIT         ?PR?_PRINTF?PRINTF
-            CODE    0D02H     0044H     UNIT         ?PR?EXINT1_ISR?EXINT1_DRV
-            CODE    0D46H     0044H     UNIT         ?C?LDIV
-            CODE    0D8AH     0036H     UNIT         ?PR?_OUTS?PRINTF
-            CODE    0DC0H     0033H     UNIT         ?PR?_PUTS?UART_API
-            CODE    0DF3H     0028H     UNIT         ?PR?_TIME_ISR_REGISTER?TIME_API
-            CODE    0E1BH     0024H     UNIT         ?PR?TM0_ISR?TIME0_DRV
-            CODE    0E3FH     0024H     UNIT         ?PR?TM1_ISR?TIME1_DRV
-            CODE    0E63H     0024H     UNIT         ?PR?LED_IRQ_FUN?TIME_DEMO
-            CODE    0E87H     0024H     UNIT         ?PR?TIME_PWM?TIME_DEMO
-            CODE    0EABH     0022H     UNIT         ?C_INITSEG
-            CODE    0ECDH     001FH     UNIT         ?PR?_TIME_INIT?TIME_API
-            CODE    0EECH     0019H     UNIT         ?PR?_DELAY_MS?LED_DEMO
-            CODE    0F05H     0019H     UNIT         ?PR?TIME_DEMO?TIME_DEMO
-            CODE    0F1EH     0019H     UNIT         ?PR?_DELAY_MS?UART_DEMO
-            CODE    0F37H     0019H     UNIT         ?PR?UART_DEMO?UART_DEMO
-            CODE    0F50H     0019H     UNIT         ?PR?_DELAY_MS?INNER_EEPROM_DEMO
-            CODE    0F69H     0015H     UNIT         ?PR?_IAPPROGRAMBYTE?INNER_EEPROM_DRV
-            CODE    0F7EH     0014H     UNIT         ?PR?_DELAY?INNER_EEPROM_DRV
-            CODE    0F92H     0014H     UNIT         ?PR?LED_DEMO?LED_DEMO
-            CODE    0FA6H     0012H     UNIT         ?PR?EXINT_DEMO?EXINT_DEMO
-            CODE    0FB8H     000FH     UNIT         ?PR?_EXINT_INIT?EXINT_API
-            CODE    0FC7H     000FH     UNIT         ?PR?UART0_ISR?UART0_DRV
-            CODE    0FD6H     000FH     UNIT         ?PR?_IAPREADBYTE?INNER_EEPROM_DRV
-            CODE    0FE5H     000DH     UNIT         ?PR?_TIME_ENABLE?TIME_API
-            CODE    0FF2H     000DH     UNIT         ?PR?IAPIDLE?INNER_EEPROM_DRV
-            CODE    0FFFH     000DH     UNIT         ?CO?UART_DEMO
-            CODE    100CH     000CH     UNIT         ?PR?_TIME0_ISR_REGISTER?TIME0_DRV
-            CODE    1018H     000CH     UNIT         ?PR?_TIME1_ISR_REGISTER?TIME1_DRV
-            CODE    1024H     000CH     UNIT         ?PR?_EXINT1_ISR_REGISTER?EXINT1_DRV
-            CODE    1030H     000CH     UNIT         ?PR?_IAPERASESECTOR?INNER_EEPROM_DRV
-            CODE    103CH     000BH     UNIT         ?PR?_UART_INIT?UART_API
-            CODE    1047H     000BH     UNIT         ?PR?_EXIT_ISR_REGISTER?EXINT_API
-            CODE    1052H     000AH     UNIT         ?PR?GETCHAR?UART0_DRV
-            CODE    105CH     0009H     UNIT         ?PR?_TIME_DISABLE?TIME_API
-            CODE    1065H     0009H     UNIT         ?PR?EXINT1_INIT?EXINT1_DRV
-            CODE    106EH     0007H     UNIT         ?PR?_OUTC?PRINTF
-            CODE    1075H     0003H     UNIT         ?PR?_INNER_EEPROM_ERASE?INNER_EEPROM_API
-            CODE    1078H     0003H     UNIT         ?PR?EXINT1ISR1?EXINT_DEMO
+            CODE    0C5DH     0061H     UNIT         ?PR?_UART0_INIT?UART0_DRV
+            CODE    0CBEH     0049H     UNIT         ?PR?_INNER_EEPROM_ERASE?INNER_EEPROM_API
+            CODE    0D07H     0048H     UNIT         ?PR?_PRINTF?PRINTF
+            CODE    0D4FH     0044H     UNIT         ?PR?EXINT1_ISR?EXINT1_DRV
+            CODE    0D93H     0044H     UNIT         ?C?LDIV
+            CODE    0DD7H     0036H     UNIT         ?PR?_OUTS?PRINTF
+            CODE    0E0DH     0033H     UNIT         ?PR?_PUTS?UART_API
+            CODE    0E40H     0028H     UNIT         ?PR?_TIME_ISR_REGISTER?TIME_API
+            CODE    0E68H     0024H     UNIT         ?PR?TM0_ISR?TIME0_DRV
+            CODE    0E8CH     0024H     UNIT         ?PR?TM1_ISR?TIME1_DRV
+            CODE    0EB0H     0024H     UNIT         ?PR?LED_IRQ_FUN?TIME_DEMO
+            CODE    0ED4H     0024H     UNIT         ?PR?TIME_PWM?TIME_DEMO
+            CODE    0EF8H     0022H     UNIT         ?C_INITSEG
+            CODE    0F1AH     001FH     UNIT         ?PR?_TIME_INIT?TIME_API
+            CODE    0F39H     0019H     UNIT         ?PR?_DELAY_MS?LED_DEMO
+            CODE    0F52H     0019H     UNIT         ?PR?TIME_DEMO?TIME_DEMO
+            CODE    0F6BH     0019H     UNIT         ?PR?_DELAY_MS?UART_DEMO
+            CODE    0F84H     0019H     UNIT         ?PR?UART_DEMO?UART_DEMO
+            CODE    0F9DH     0019H     UNIT         ?PR?_DELAY_MS?INNER_EEPROM_DEMO
+            CODE    0FB6H     0015H     UNIT         ?PR?_IAPPROGRAMBYTE?INNER_EEPROM_DRV
+            CODE    0FCBH     0014H     UNIT         ?PR?_DELAY?INNER_EEPROM_DRV
+            CODE    0FDFH     0014H     UNIT         ?PR?LED_DEMO?LED_DEMO
+            CODE    0FF3H     0012H     UNIT         ?PR?EXINT_DEMO?EXINT_DEMO
+            CODE    1005H     000FH     UNIT         ?PR?_EXINT_INIT?EXINT_API
+            CODE    1014H     000FH     UNIT         ?PR?UART0_ISR?UART0_DRV
+            CODE    1023H     000FH     UNIT         ?PR?_IAPREADBYTE?INNER_EEPROM_DRV
+            CODE    1032H     000DH     UNIT         ?PR?_TIME_ENABLE?TIME_API
+            CODE    103FH     000DH     UNIT         ?PR?IAPIDLE?INNER_EEPROM_DRV
+            CODE    104CH     000DH     UNIT         ?CO?UART_DEMO
+            CODE    1059H     000CH     UNIT         ?PR?_TIME0_ISR_REGISTER?TIME0_DRV
+            CODE    1065H     000CH     UNIT         ?PR?_TIME1_ISR_REGISTER?TIME1_DRV
+            CODE    1071H     000CH     UNIT         ?PR?_EXINT1_ISR_REGISTER?EXINT1_DRV
+            CODE    107DH     000CH     UNIT         ?PR?_IAPERASESECTOR?INNER_EEPROM_DRV
+            CODE    1089H     000BH     UNIT         ?PR?_UART_INIT?UART_API
+            CODE    1094H     000BH     UNIT         ?PR?_EXIT_ISR_REGISTER?EXINT_API
+            CODE    109FH     000AH     UNIT         ?PR?GETCHAR?UART0_DRV
+            CODE    10A9H     0009H     UNIT         ?PR?_TIME_DISABLE?TIME_API
+            CODE    10B2H     0009H     UNIT         ?PR?EXINT1_INIT?EXINT1_DRV
+            CODE    10BBH     0007H     UNIT         ?PR?_OUTC?PRINTF
+            CODE    10C2H     0003H     UNIT         ?PR?EXINT1ISR1?EXINT_DEMO
 
 
 
@@ -179,7 +179,7 @@ SEGMENT                                            XDATA_GROUP
   +--> ?PR?INNER_EEPROM_DEMO?INNER_EEPROM_DEMO
 
 ?PR?INNER_EEPROM_DEMO?INNER_EEPROM_DEMO          0000H    0202H
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 4
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 4
 
 
   +--> ?CO?INNER_EEPROM_DEMO
@@ -195,10 +195,15 @@ SEGMENT                                            XDATA_GROUP
 
 ?PR?_UART0_INIT?UART0_DRV                        0202H    0002H
 
-?PR?_INNER_EEPROM_ERASE?INNER_EEPROM_API         -----    -----
+?PR?_INNER_EEPROM_ERASE?INNER_EEPROM_API         0202H    0005H
   +--> ?PR?_IAPERASESECTOR?INNER_EEPROM_DRV
+  +--> ?PR?_IAPREADBYTE?INNER_EEPROM_DRV
 
 ?PR?_IAPERASESECTOR?INNER_EEPROM_DRV             -----    -----
+  +--> ?PR?_DELAY?INNER_EEPROM_DRV
+  +--> ?PR?IAPIDLE?INNER_EEPROM_DRV
+
+?PR?_IAPREADBYTE?INNER_EEPROM_DRV                -----    -----
   +--> ?PR?_DELAY?INNER_EEPROM_DRV
   +--> ?PR?IAPIDLE?INNER_EEPROM_DRV
 
@@ -211,10 +216,6 @@ SEGMENT                                            XDATA_GROUP
 
 ?PR?_INNER_EEPROM_READ?INNER_EEPROM_API          0202H    0009H
   +--> ?PR?_IAPREADBYTE?INNER_EEPROM_DRV
-
-?PR?_IAPREADBYTE?INNER_EEPROM_DRV                -----    -----
-  +--> ?PR?_DELAY?INNER_EEPROM_DRV
-  +--> ?PR?IAPIDLE?INNER_EEPROM_DRV
 
 
 
@@ -238,10 +239,10 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 5
+
+
   B:00B0H.5       PUBLIC        P35
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 5
-
-
   C:001EH         PUBLIC        led_off
   C:0016H         PUBLIC        led_on
   D:00D0H         PUBLIC        PSW
@@ -273,63 +274,63 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
-  C:0DF3H         PUBLIC        _time_isr_register
+  C:0E40H         PUBLIC        _time_isr_register
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:0ECDH         PUBLIC        _time_init
+  C:0F1AH         PUBLIC        _time_init
   B:0088H.4       PUBLIC        TR0
   B:0088H.6       PUBLIC        TR1
-  C:105CH         PUBLIC        _time_disable
+  C:10A9H         PUBLIC        _time_disable
   D:00D0H         PUBLIC        PSW
-  C:0FE5H         PUBLIC        _time_enable
+  C:1032H         PUBLIC        _time_enable
   -------         PROC          _TIME_INIT
   D:0007H         SYMBOL        tx
   X:0283H         SYMBOL        tclk
-  C:0ECDH         LINE#         9
-  C:0ED5H         LINE#         10
-  C:0ED5H         LINE#         11
-  C:0EDBH         LINE#         12
-  C:0EE3H         LINE#         13
-  C:0EE3H         LINE#         14
-  C:0EEBH         LINE#         15
-  C:0EEBH         LINE#         16
+  C:0F1AH         LINE#         9
+  C:0F22H         LINE#         10
+  C:0F22H         LINE#         11
+  C:0F28H         LINE#         12
+  C:0F30H         LINE#         13
+  C:0F30H         LINE#         14
+  C:0F38H         LINE#         15
+  C:0F38H         LINE#         16
   -------         ENDPROC       _TIME_INIT
   -------         PROC          _TIME_ENABLE
   D:0007H         SYMBOL        tx
-  C:0FE5H         LINE#         19
-  C:0FE5H         LINE#         20
-  C:0FE5H         LINE#         21
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 6
+  C:1032H         LINE#         19
+  C:1032H         LINE#         20
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 6
 
 
-  C:0FE8H         LINE#         22
-  C:0FECH         LINE#         23
-  C:0FEDH         LINE#         24
-  C:0FF1H         LINE#         25
-  C:0FF1H         LINE#         26
+  C:1032H         LINE#         21
+  C:1035H         LINE#         22
+  C:1039H         LINE#         23
+  C:103AH         LINE#         24
+  C:103EH         LINE#         25
+  C:103EH         LINE#         26
   -------         ENDPROC       _TIME_ENABLE
   -------         PROC          _TIME_DISABLE
   D:0007H         SYMBOL        tx
-  C:105CH         LINE#         28
-  C:105CH         LINE#         29
-  C:105CH         LINE#         30
-  C:105FH         LINE#         31
-  C:1061H         LINE#         32
-  C:1062H         LINE#         33
-  C:1064H         LINE#         34
-  C:1064H         LINE#         35
+  C:10A9H         LINE#         28
+  C:10A9H         LINE#         29
+  C:10A9H         LINE#         30
+  C:10ACH         LINE#         31
+  C:10AEH         LINE#         32
+  C:10AFH         LINE#         33
+  C:10B1H         LINE#         34
+  C:10B1H         LINE#         35
   -------         ENDPROC       _TIME_DISABLE
   -------         PROC          _TIME_ISR_REGISTER
   D:0007H         SYMBOL        tx
   X:026EH         SYMBOL        fp
-  C:0DF3H         LINE#         37
-  C:0DFEH         LINE#         38
-  C:0DFEH         LINE#         39
-  C:0E04H         LINE#         40
-  C:0E0FH         LINE#         41
-  C:0E0FH         LINE#         42
-  C:0E1AH         LINE#         43
-  C:0E1AH         LINE#         45
+  C:0E40H         LINE#         37
+  C:0E4BH         LINE#         38
+  C:0E4BH         LINE#         39
+  C:0E51H         LINE#         40
+  C:0E5CH         LINE#         41
+  C:0E5CH         LINE#         42
+  C:0E67H         LINE#         43
+  C:0E67H         LINE#         45
   -------         ENDPROC       _TIME_ISR_REGISTER
   -------         ENDMOD        TIME_API
 
@@ -348,31 +349,31 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:0DC0H         PUBLIC        _puts
-  C:103CH         PUBLIC        _uart_init
+  C:0E0DH         PUBLIC        _puts
+  C:1089H         PUBLIC        _uart_init
   D:00D0H         PUBLIC        PSW
   -------         PROC          _UART_INIT
   D:0007H         SYMBOL        uart_num
   D:0004H         SYMBOL        baud
-  C:103CH         LINE#         3
-  C:103CH         LINE#         4
-  C:103CH         LINE#         5
-  C:103FH         LINE#         6
-  C:1046H         LINE#         7
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 7
+  C:1089H         LINE#         3
+  C:1089H         LINE#         4
+  C:1089H         LINE#         5
+  C:108CH         LINE#         6
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 7
 
 
-  C:1046H         LINE#         8
+  C:1093H         LINE#         7
+  C:1093H         LINE#         8
   -------         ENDPROC       _UART_INIT
   -------         PROC          _PUTS
   X:0271H         SYMBOL        s
-  C:0DC0H         LINE#         13
-  C:0DCBH         LINE#         14
-  C:0DCBH         LINE#         15
-  C:0DDBH         LINE#         16
-  C:0DDBH         LINE#         17
-  C:0DF0H         LINE#         18
-  C:0DF2H         LINE#         20
+  C:0E0DH         LINE#         13
+  C:0E18H         LINE#         14
+  C:0E18H         LINE#         15
+  C:0E28H         LINE#         16
+  C:0E28H         LINE#         17
+  C:0E3DH         LINE#         18
+  C:0E3FH         LINE#         20
   -------         ENDPROC       _PUTS
   -------         ENDMOD        UART_API
 
@@ -391,40 +392,40 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:1047H         PUBLIC        _exit_isr_register
-  C:0FB8H         PUBLIC        _exint_init
+  C:1094H         PUBLIC        _exit_isr_register
+  C:1005H         PUBLIC        _exint_init
   D:00D0H         PUBLIC        PSW
   -------         PROC          _EXINT_INIT
   D:0007H         SYMBOL        exint_num
   B:0020H.2       SYMBOL        int_mode
-  C:0FB8H         LINE#         9
-  C:0FB8H         LINE#         10
-  C:0FB8H         LINE#         11
-  C:0FBBH         LINE#         13
-  C:0FBBH         LINE#         14
-  C:0FBFH         LINE#         15
-  C:0FC6H         LINE#         16
-  C:0FC6H         LINE#         17
+  C:1005H         LINE#         9
+  C:1005H         LINE#         10
+  C:1005H         LINE#         11
+  C:1008H         LINE#         13
+  C:1008H         LINE#         14
+  C:100CH         LINE#         15
+  C:1013H         LINE#         16
+  C:1013H         LINE#         17
   -------         ENDPROC       _EXINT_INIT
   -------         PROC          _EXIT_ISR_REGISTER
   D:0007H         SYMBOL        exint_num
   D:0001H         SYMBOL        fp
-  C:1047H         LINE#         20
-  C:1047H         LINE#         21
-  C:1047H         LINE#         22
-  C:104AH         LINE#         24
-  C:104EH         LINE#         25
-  C:1051H         LINE#         26
-  C:1051H         LINE#         28
+  C:1094H         LINE#         20
+  C:1094H         LINE#         21
+  C:1094H         LINE#         22
+  C:1097H         LINE#         24
+  C:109BH         LINE#         25
+  C:109EH         LINE#         26
+  C:109EH         LINE#         28
   -------         ENDPROC       _EXIT_ISR_REGISTER
   -------         ENDMOD        EXINT_API
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 8
 
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 8
 
 
   -------         MODULE        INNER_EEPROM_API
   C:0000H         SYMBOL        _ICE_DUMMY_
-  C:1075H         PUBLIC        _inner_eeprom_erase
+  C:0CBEH         PUBLIC        _inner_eeprom_erase
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
@@ -433,10 +434,10 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00C8H         PUBLIC        P5
   D:00E8H         PUBLIC        P6
   D:00F8H         PUBLIC        P7
-  C:0AC6H         PUBLIC        _inner_eeprom_read
+  C:0ACAH         PUBLIC        _inner_eeprom_read
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
-  C:0B92H         PUBLIC        _inner_eeprom_write
+  C:0B96H         PUBLIC        _inner_eeprom_write
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
@@ -448,12 +449,12 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   -------         DO            
   X:0209H         SYMBOL        i
   -------         ENDDO         
-  C:0AC6H         LINE#         4
-  C:0AD7H         LINE#         6
-  C:0AD7H         LINE#         8
-  C:0AF2H         LINE#         9
-  C:0B1BH         LINE#         10
-  C:0B2BH         LINE#         11
+  C:0ACAH         LINE#         4
+  C:0ADBH         LINE#         6
+  C:0ADBH         LINE#         8
+  C:0AF6H         LINE#         9
+  C:0B1FH         LINE#         10
+  C:0B2FH         LINE#         11
   -------         ENDPROC       _INNER_EEPROM_READ
   -------         PROC          _INNER_EEPROM_WRITE
   X:0202H         SYMBOL        addr
@@ -462,26 +463,36 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   -------         DO            
   X:0209H         SYMBOL        i
   -------         ENDDO         
-  C:0B92H         LINE#         13
-  C:0BA3H         LINE#         15
-  C:0BA3H         LINE#         17
-  C:0BBEH         LINE#         18
-  C:0BE5H         LINE#         19
-  C:0BF5H         LINE#         21
+  C:0B96H         LINE#         13
+  C:0BA7H         LINE#         15
+  C:0BA7H         LINE#         17
+  C:0BC2H         LINE#         18
+  C:0BE9H         LINE#         19
+  C:0BF9H         LINE#         21
   -------         ENDPROC       _INNER_EEPROM_WRITE
   -------         PROC          _INNER_EEPROM_ERASE
-  D:0006H         SYMBOL        addr
-  C:1075H         LINE#         24
-  C:1075H         LINE#         25
-  C:1075H         LINE#         26
+  X:0202H         SYMBOL        addr
+  -------         DO            
+  X:0204H         SYMBOL        i
+  X:0206H         SYMBOL        c
+  -------         ENDDO         
+  C:0CBEH         LINE#         29
+  C:0CC6H         LINE#         30
+  C:0CC6H         LINE#         33
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 9
+
+
+  C:0CC9H         LINE#         34
+  C:0CE0H         LINE#         36
+  C:0CF3H         LINE#         37
+  C:0CF5H         LINE#         38
+  C:0D05H         LINE#         39
+  C:0D06H         LINE#         41
   -------         ENDPROC       _INNER_EEPROM_ERASE
   -------         ENDMOD        INNER_EEPROM_API
 
   -------         MODULE        TIME0_DRV
   C:0000H         SYMBOL        _ICE_DUMMY_
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 9
-
-
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
@@ -497,40 +508,43 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0089H         PUBLIC        TMOD
   D:0088H         PUBLIC        TCON
   D:008EH         PUBLIC        AUXR
-  C:0E1BH         PUBLIC        tm0_isr
+  C:0E68H         PUBLIC        tm0_isr
   B:00A8H.1       PUBLIC        ET0
   B:0088H.5       PUBLIC        TF0
   D:008CH         PUBLIC        TH0
   D:008AH         PUBLIC        TL0
-  C:100CH         PUBLIC        _time0_isr_register
+  C:1059H         PUBLIC        _time0_isr_register
   X:0274H         SYMBOL        time_isr_array
-  C:0B2CH         PUBLIC        _time0_cfg
+  C:0B30H         PUBLIC        _time0_cfg
   D:008FH         PUBLIC        INT_CLKO
   D:00D0H         PUBLIC        PSW
   -------         PROC          _TIME0_CFG
   X:0285H         SYMBOL        t0_clk
-  C:0B2CH         LINE#         6
-  C:0B34H         LINE#         7
-  C:0B34H         LINE#         8
-  C:0B37H         LINE#         9
-  C:0B3AH         LINE#         10
-  C:0B3DH         LINE#         11
-  C:0B5CH         LINE#         12
-  C:0B8DH         LINE#         13
-  C:0B8FH         LINE#         14
-  C:0B91H         LINE#         17
+  C:0B30H         LINE#         6
+  C:0B38H         LINE#         7
+  C:0B38H         LINE#         8
+  C:0B3BH         LINE#         9
+  C:0B3EH         LINE#         10
+  C:0B41H         LINE#         11
+  C:0B60H         LINE#         12
+  C:0B91H         LINE#         13
+  C:0B93H         LINE#         14
+  C:0B95H         LINE#         17
   -------         ENDPROC       _TIME0_CFG
   -------         PROC          _TIME0_ISR_REGISTER
   D:0001H         SYMBOL        fp
-  C:100CH         LINE#         21
-  C:100CH         LINE#         22
-  C:100CH         LINE#         23
-  C:1017H         LINE#         24
+  C:1059H         LINE#         21
+  C:1059H         LINE#         22
+  C:1059H         LINE#         23
+  C:1064H         LINE#         24
   -------         ENDPROC       _TIME0_ISR_REGISTER
   -------         PROC          TM0_ISR
-  C:0E1BH         LINE#         26
-  C:0E28H         LINE#         28
-  C:0E34H         LINE#         29
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 10
+
+
+  C:0E68H         LINE#         26
+  C:0E75H         LINE#         28
+  C:0E81H         LINE#         29
   -------         ENDPROC       TM0_ISR
   -------         ENDMOD        TIME0_DRV
 
@@ -539,9 +553,6 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0080H         PUBLIC        P0
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 10
-
-
   D:00B0H         PUBLIC        P3
   D:00C0H         PUBLIC        P4
   D:00C8H         PUBLIC        P5
@@ -573,40 +584,40 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0089H         PUBLIC        TMOD
   D:0088H         PUBLIC        TCON
   D:008EH         PUBLIC        AUXR
-  C:0E3FH         PUBLIC        tm1_isr
+  C:0E8CH         PUBLIC        tm1_isr
   B:00A8H.3       PUBLIC        ET1
   B:0088H.7       PUBLIC        TF1
   D:008DH         PUBLIC        TH1
   D:008BH         PUBLIC        TL1
-  C:1018H         PUBLIC        _time1_isr_register
-  C:0BF6H         PUBLIC        _time1_cfg
+  C:1065H         PUBLIC        _time1_isr_register
+  C:0BFAH         PUBLIC        _time1_cfg
   D:00D0H         PUBLIC        PSW
   -------         PROC          _TIME1_CFG
   X:0287H         SYMBOL        t1_clk
-  C:0BF6H         LINE#         7
-  C:0BFEH         LINE#         8
-  C:0BFEH         LINE#         9
-  C:0C01H         LINE#         10
-  C:0C04H         LINE#         11
-  C:0C23H         LINE#         12
-  C:0C54H         LINE#         13
-  C:0C56H         LINE#         14
-  C:0C58H         LINE#         17
+  C:0BFAH         LINE#         7
+  C:0C02H         LINE#         8
+  C:0C02H         LINE#         9
+  C:0C05H         LINE#         10
+  C:0C08H         LINE#         11
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 11
+
+
+  C:0C27H         LINE#         12
+  C:0C58H         LINE#         13
+  C:0C5AH         LINE#         14
+  C:0C5CH         LINE#         17
   -------         ENDPROC       _TIME1_CFG
   -------         PROC          _TIME1_ISR_REGISTER
   D:0001H         SYMBOL        fp
-  C:1018H         LINE#         19
-  C:1018H         LINE#         20
-  C:1018H         LINE#         21
-  C:1023H         LINE#         22
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 11
-
-
+  C:1065H         LINE#         19
+  C:1065H         LINE#         20
+  C:1065H         LINE#         21
+  C:1070H         LINE#         22
   -------         ENDPROC       _TIME1_ISR_REGISTER
   -------         PROC          TM1_ISR
-  C:0E3FH         LINE#         24
-  C:0E4CH         LINE#         26
-  C:0E58H         LINE#         27
+  C:0E8CH         LINE#         24
+  C:0E99H         LINE#         26
+  C:0EA5H         LINE#         27
   -------         ENDPROC       TM1_ISR
   -------         ENDMOD        TIME1_DRV
 
@@ -628,7 +639,7 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   B:0020H.1       PUBLIC        t_busy
   B:0098H.0       PUBLIC        RI
   B:0098H.1       PUBLIC        TI
-  C:0FC7H         PUBLIC        uart0_isr
+  C:1014H         PUBLIC        uart0_isr
   D:00D8H         PUBLIC        CCON
   D:0099H         PUBLIC        SBUF
   D:0098H         PUBLIC        SCON
@@ -637,42 +648,42 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:008EH         PUBLIC        AUXR
   D:00D6H         PUBLIC        T2H
   D:00D7H         PUBLIC        T2L
-  C:1052H         PUBLIC        getchar
-  C:0C59H         PUBLIC        _uart0_Init
+  C:109FH         PUBLIC        getchar
+  C:0C5DH         PUBLIC        _uart0_Init
   D:00D0H         PUBLIC        PSW
   -------         PROC          _UART0_INIT
   X:0202H         SYMBOL        baud
-  C:0C59H         LINE#         10
-  C:0C61H         LINE#         11
-  C:0C61H         LINE#         12
-  C:0C64H         LINE#         13
-  C:0C67H         LINE#         14
-  C:0C6AH         LINE#         15
-  C:0C86H         LINE#         16
-  C:0CB2H         LINE#         19
-  C:0CB5H         LINE#         20
-  C:0CB7H         LINE#         21
-  C:0CB9H         LINE#         22
+  C:0C5DH         LINE#         10
+  C:0C65H         LINE#         11
+  C:0C65H         LINE#         12
+  C:0C68H         LINE#         13
+  C:0C6BH         LINE#         14
+  C:0C6EH         LINE#         15
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 12
+
+
+  C:0C8AH         LINE#         16
+  C:0CB6H         LINE#         19
+  C:0CB9H         LINE#         20
+  C:0CBBH         LINE#         21
+  C:0CBDH         LINE#         22
   -------         ENDPROC       _UART0_INIT
   -------         PROC          UART0_ISR
   -------         DO            
   X:0289H         SYMBOL        rx_count
   -------         ENDDO         
-  C:0FC7H         LINE#         28
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 12
-
-
-  C:0FC7H         LINE#         31
-  C:0FCAH         LINE#         32
-  C:0FCAH         LINE#         33
-  C:0FCCH         LINE#         34
-  C:0FCEH         LINE#         35
-  C:0FCEH         LINE#         36
-  C:0FD1H         LINE#         37
-  C:0FD1H         LINE#         38
-  C:0FD3H         LINE#         39
-  C:0FD5H         LINE#         40
-  C:0FD5H         LINE#         41
+  C:1014H         LINE#         28
+  C:1014H         LINE#         31
+  C:1017H         LINE#         32
+  C:1017H         LINE#         33
+  C:1019H         LINE#         34
+  C:101BH         LINE#         35
+  C:101BH         LINE#         36
+  C:101EH         LINE#         37
+  C:101EH         LINE#         38
+  C:1020H         LINE#         39
+  C:1022H         LINE#         40
+  C:1022H         LINE#         41
   -------         ENDPROC       UART0_ISR
   -------         PROC          _PUTC
   D:0007H         SYMBOL        dat
@@ -684,12 +695,12 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   C:000AH         LINE#         51
   -------         ENDPROC       _PUTC
   -------         PROC          GETCHAR
-  C:1052H         LINE#         56
-  C:1052H         LINE#         57
-  C:1052H         LINE#         58
-  C:1054H         LINE#         59
-  C:1057H         LINE#         60
-  C:105BH         LINE#         61
+  C:109FH         LINE#         56
+  C:109FH         LINE#         57
+  C:109FH         LINE#         58
+  C:10A1H         LINE#         59
+  C:10A4H         LINE#         60
+  C:10A8H         LINE#         61
   -------         ENDPROC       GETCHAR
   -------         ENDMOD        UART0_DRV
 
@@ -704,41 +715,41 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   B:00A8H.7       PUBLIC        EA
   D:00E8H         PUBLIC        P6
   D:00F8H         PUBLIC        P7
-  C:0D02H         PUBLIC        exint1_isr
+  C:0D4FH         PUBLIC        exint1_isr
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 13
+
+
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   B:0088H.2       PUBLIC        IT1
   B:00A8H.2       PUBLIC        EX1
-  C:1024H         PUBLIC        _exint1_isr_register
+  C:1071H         PUBLIC        _exint1_isr_register
   X:027AH         SYMBOL        exint_isr_array
-  C:1065H         PUBLIC        exint1_init
+  C:10B2H         PUBLIC        exint1_init
   D:00D0H         PUBLIC        PSW
   -------         PROC          EXINT1_INIT
   B:0020H.3       SYMBOL        int_mode
-  C:1065H         LINE#         10
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 13
-
-
-  C:1065H         LINE#         11
-  C:1065H         LINE#         12
-  C:1069H         LINE#         13
-  C:106BH         LINE#         14
-  C:106DH         LINE#         16
+  C:10B2H         LINE#         10
+  C:10B2H         LINE#         11
+  C:10B2H         LINE#         12
+  C:10B6H         LINE#         13
+  C:10B8H         LINE#         14
+  C:10BAH         LINE#         16
   -------         ENDPROC       EXINT1_INIT
   -------         PROC          _EXINT1_ISR_REGISTER
   D:0001H         SYMBOL        fp
-  C:1024H         LINE#         18
-  C:1024H         LINE#         19
-  C:1024H         LINE#         20
-  C:102FH         LINE#         21
+  C:1071H         LINE#         18
+  C:1071H         LINE#         19
+  C:1071H         LINE#         20
+  C:107CH         LINE#         21
   -------         ENDPROC       _EXINT1_ISR_REGISTER
   -------         PROC          EXINT1_ISR
-  C:0D02H         LINE#         23
-  C:0D1FH         LINE#         25
-  C:0D2BH         LINE#         26
+  C:0D4FH         LINE#         23
+  C:0D6CH         LINE#         25
+  C:0D78H         LINE#         26
   -------         ENDPROC       EXINT1_ISR
   -------         ENDMOD        EXINT1_DRV
 
@@ -748,100 +759,100 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
   D:00B0H         PUBLIC        P3
-  C:1030H         PUBLIC        _IapEraseSector
+  C:107DH         PUBLIC        _IapEraseSector
   D:00C0H         PUBLIC        P4
   D:00C8H         PUBLIC        P5
   D:00E8H         PUBLIC        P6
   D:00F8H         PUBLIC        P7
   D:00A8H         PUBLIC        IE
-  C:0F69H         PUBLIC        _IapProgramByte
+  C:0FB6H         PUBLIC        _IapProgramByte
   D:00C5H         PUBLIC        IAP_CMD
-  C:0F8BH         SYMBOL        _delay
+  C:0FD8H         SYMBOL        _delay
   D:00B8H         PUBLIC        IP
-  C:0FF2H         PUBLIC        IapIdle
+  C:103FH         PUBLIC        IapIdle
   D:00C3H         PUBLIC        IAP_ADDRH
   D:00D8H         PUBLIC        CCON
   D:00C4H         PUBLIC        IAP_ADDRL
-  C:0FD6H         PUBLIC        _IapReadByte
+  C:1023H         PUBLIC        _IapReadByte
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   D:00C7H         PUBLIC        IAP_CONTR
   D:00C2H         PUBLIC        IAP_DATA
   D:00C6H         PUBLIC        IAP_TRIG
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 14
+
+
   D:00D0H         PUBLIC        PSW
-  C:0F83H         SYMBOL        L?0009
+  C:0FD0H         SYMBOL        L?0009
   -------         PROC          L?0008
   -------         ENDPROC       L?0008
-  C:0F83H         SYMBOL        L?0009
+  C:0FD0H         SYMBOL        L?0009
   -------         PROC          _DELAY
   D:0007H         SYMBOL        n
-  C:0F8BH         LINE#         30
-  C:0F8BH         LINE#         31
-  C:0F8BH         LINE#         32
-  C:0F91H         LINE#         33
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 14
-
-
+  C:0FD8H         LINE#         30
+  C:0FD8H         LINE#         31
+  C:0FD8H         LINE#         32
+  C:0FDEH         LINE#         33
   -------         ENDPROC       _DELAY
   -------         PROC          IAPIDLE
-  C:0FF2H         LINE#         40
-  C:0FF2H         LINE#         41
-  C:0FF2H         LINE#         42
-  C:0FF5H         LINE#         43
-  C:0FF7H         LINE#         44
-  C:0FF9H         LINE#         45
-  C:0FFCH         LINE#         46
-  C:0FFEH         LINE#         47
+  C:103FH         LINE#         40
+  C:103FH         LINE#         41
+  C:103FH         LINE#         42
+  C:1042H         LINE#         43
+  C:1044H         LINE#         44
+  C:1046H         LINE#         45
+  C:1049H         LINE#         46
+  C:104BH         LINE#         47
   -------         ENDPROC       IAPIDLE
   -------         PROC          _IAPREADBYTE
   D:0006H         SYMBOL        addr
   -------         DO            
   D:0007H         SYMBOL        dat
   -------         ENDDO         
-  C:0FD6H         LINE#         53
-  C:0FD6H         LINE#         54
-  C:0FD6H         LINE#         56
-  C:0FD9H         LINE#         57
-  C:0FDCH         LINE#         58
-  C:0FDCH         LINE#         59
-  C:0FDCH         LINE#         60
-  C:0FDCH         LINE#         61
-  C:0FDCH         LINE#         62
-  C:0FDFH         LINE#         63
-  C:0FE1H         LINE#         64
-  C:0FE4H         LINE#         66
-  C:0FE4H         LINE#         67
+  C:1023H         LINE#         53
+  C:1023H         LINE#         54
+  C:1023H         LINE#         56
+  C:1026H         LINE#         57
+  C:1029H         LINE#         58
+  C:1029H         LINE#         59
+  C:1029H         LINE#         60
+  C:1029H         LINE#         61
+  C:1029H         LINE#         62
+  C:102CH         LINE#         63
+  C:102EH         LINE#         64
+  C:1031H         LINE#         66
+  C:1031H         LINE#         67
   -------         ENDPROC       _IAPREADBYTE
   -------         PROC          _IAPPROGRAMBYTE
   D:0006H         SYMBOL        addr
   D:0005H         SYMBOL        dat
-  C:0F69H         LINE#         73
-  C:0F69H         LINE#         74
-  C:0F69H         LINE#         75
-  C:0F6CH         LINE#         76
-  C:0F6FH         LINE#         77
-  C:0F71H         LINE#         78
-  C:0F74H         LINE#         79
-  C:0F78H         LINE#         80
-  C:0F78H         LINE#         81
-  C:0F78H         LINE#         82
-  C:0F7BH         LINE#         83
+  C:0FB6H         LINE#         73
+  C:0FB6H         LINE#         74
+  C:0FB6H         LINE#         75
+  C:0FB9H         LINE#         76
+  C:0FBCH         LINE#         77
+  C:0FBEH         LINE#         78
+  C:0FC1H         LINE#         79
+  C:0FC5H         LINE#         80
+  C:0FC5H         LINE#         81
+  C:0FC5H         LINE#         82
+  C:0FC8H         LINE#         83
   -------         ENDPROC       _IAPPROGRAMBYTE
   -------         PROC          _IAPERASESECTOR
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 15
+
+
   D:0006H         SYMBOL        addr
-  C:1030H         LINE#         90
-  C:1030H         LINE#         91
-  C:1030H         LINE#         92
-  C:1033H         LINE#         93
-  C:1036H         LINE#         94
-  C:1036H         LINE#         95
-  C:1036H         LINE#         96
-  C:1036H         LINE#         97
-  C:1036H         LINE#         98
-  C:1039H         LINE#         99
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 15
-
-
+  C:107DH         LINE#         90
+  C:107DH         LINE#         91
+  C:107DH         LINE#         92
+  C:1080H         LINE#         93
+  C:1083H         LINE#         94
+  C:1083H         LINE#         95
+  C:1083H         LINE#         96
+  C:1083H         LINE#         97
+  C:1083H         LINE#         98
+  C:1086H         LINE#         99
   -------         ENDPROC       _IAPERASESECTOR
   -------         ENDMOD        INNER_EEPROM_DRV
 
@@ -861,33 +872,36 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00F8H         PUBLIC        P7
   C:07B2H         SYMBOL        _out_num
   D:00A8H         PUBLIC        IE
-  C:0CBAH         PUBLIC        _printf
+  C:0D07H         PUBLIC        _printf
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:106EH         SYMBOL        _outc
-  C:0D8AH         SYMBOL        _outs
+  C:10BBH         SYMBOL        _outc
+  C:0DD7H         SYMBOL        _outs
   C:038AH         SYMBOL        _my_vprintf
   X:0255H         PUBLIC        hex_tab
   D:00D0H         PUBLIC        PSW
   -------         PROC          _OUTC
   D:0006H         SYMBOL        c
-  C:106EH         LINE#         17
-  C:106EH         LINE#         18
-  C:106EH         LINE#         19
-  C:1071H         LINE#         20
-  C:1074H         LINE#         21
+  C:10BBH         LINE#         17
+  C:10BBH         LINE#         18
+  C:10BBH         LINE#         19
+  C:10BEH         LINE#         20
+  C:10C1H         LINE#         21
   -------         ENDPROC       _OUTC
   -------         PROC          _OUTS
   X:027DH         SYMBOL        s
-  C:0D8AH         LINE#         23
-  C:0D95H         LINE#         24
-  C:0D95H         LINE#         25
-  C:0DA5H         LINE#         26
-  C:0DBCH         LINE#         27
-  C:0DBFH         LINE#         28
+  C:0DD7H         LINE#         23
+  C:0DE2H         LINE#         24
+  C:0DE2H         LINE#         25
+  C:0DF2H         LINE#         26
+  C:0E09H         LINE#         27
+  C:0E0CH         LINE#         28
   -------         ENDPROC       _OUTS
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 16
+
+
   -------         PROC          _OUT_NUM
   X:0239H         SYMBOL        n
   X:023DH         SYMBOL        base
@@ -899,9 +913,6 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   X:024EH         SYMBOL        s
   X:0251H         SYMBOL        count
   X:0253H         SYMBOL        i
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 16
-
-
   -------         ENDDO         
   C:07B2H         LINE#         30
   C:07B8H         LINE#         31
@@ -948,6 +959,9 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   C:03BCH         LINE#         77
   C:03C6H         LINE#         78
   C:03D7H         LINE#         79
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 17
+
+
   C:03DDH         LINE#         80
   C:03E7H         LINE#         81
   C:03E7H         LINE#         83
@@ -959,9 +973,6 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   C:044DH         LINE#         90
   C:044FH         LINE#         92
   C:0476H         LINE#         93
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 17
-
-
   C:04A3H         LINE#         94
   C:04D0H         LINE#         95
   C:04FDH         LINE#         96
@@ -981,13 +992,13 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   X:020EH         SYMBOL        ellipsis_40
   X:0236H         SYMBOL        ap
   -------         ENDDO         
-  C:0CBAH         LINE#         110
-  C:0CC5H         LINE#         111
-  C:0CC5H         LINE#         114
-  C:0CD3H         LINE#         115
-  C:0CF6H         LINE#         116
-  C:0CFFH         LINE#         117
-  C:0D01H         LINE#         118
+  C:0D07H         LINE#         110
+  C:0D12H         LINE#         111
+  C:0D12H         LINE#         114
+  C:0D20H         LINE#         115
+  C:0D43H         LINE#         116
+  C:0D4CH         LINE#         117
+  C:0D4EH         LINE#         118
   -------         ENDPROC       _PRINTF
   -------         ENDMOD        PRINTF
 
@@ -1006,8 +1017,11 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:0F92H         PUBLIC        led_demo
-  C:0EECH         SYMBOL        _delay_ms
+  C:0FDFH         PUBLIC        led_demo
+  C:0F39H         SYMBOL        _delay_ms
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 18
+
+
   D:00D0H         PUBLIC        PSW
   -------         PROC          _DELAY_MS
   D:0006H         SYMBOL        n
@@ -1015,25 +1029,22 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0005H         SYMBOL        i
   D:0004H         SYMBOL        j
   -------         ENDDO         
-  C:0EECH         LINE#         3
-  C:0EECH         LINE#         4
-  C:0EECH         LINE#         7
-  C:0EECH         LINE#         8
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 18
-
-
-  C:0EECH         LINE#         10
-  C:0EF5H         LINE#         11
-  C:0EF7H         LINE#         12
-  C:0F04H         LINE#         13
+  C:0F39H         LINE#         3
+  C:0F39H         LINE#         4
+  C:0F39H         LINE#         7
+  C:0F39H         LINE#         8
+  C:0F39H         LINE#         10
+  C:0F42H         LINE#         11
+  C:0F44H         LINE#         12
+  C:0F51H         LINE#         13
   -------         ENDPROC       _DELAY_MS
   -------         PROC          LED_DEMO
-  C:0F92H         LINE#         16
-  C:0F92H         LINE#         17
-  C:0F92H         LINE#         18
-  C:0F95H         LINE#         19
-  C:0F9CH         LINE#         20
-  C:0F9FH         LINE#         21
+  C:0FDFH         LINE#         16
+  C:0FDFH         LINE#         17
+  C:0FDFH         LINE#         18
+  C:0FE2H         LINE#         19
+  C:0FE9H         LINE#         20
+  C:0FECH         LINE#         21
   -------         ENDPROC       LED_DEMO
   -------         ENDMOD        LED_DEMO
 
@@ -1048,57 +1059,57 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00E8H         PUBLIC        P6
   D:00F8H         PUBLIC        P7
   D:00A8H         PUBLIC        IE
-  C:0E63H         PUBLIC        led_irq_fun
+  C:0EB0H         PUBLIC        led_irq_fun
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   B:00B0H.5       PUBLIC        P35
-  C:0F05H         PUBLIC        time_demo
+  C:0F52H         PUBLIC        time_demo
   D:008CH         PUBLIC        TH0
   D:008AH         PUBLIC        TL0
-  C:0E87H         PUBLIC        time_pwm
+  C:0ED4H         PUBLIC        time_pwm
   D:00D0H         PUBLIC        PSW
   -------         PROC          LED_IRQ_FUN
   -------         DO            
   X:0280H         SYMBOL        n
   -------         ENDDO         
-  C:0E63H         LINE#         3
-  C:0E63H         LINE#         4
-  C:0E63H         LINE#         6
-  C:0E71H         LINE#         7
-  C:0E7DH         LINE#         8
-  C:0E84H         LINE#         9
-  C:0E86H         LINE#         10
-  C:0E86H         LINE#         11
+  C:0EB0H         LINE#         3
+  C:0EB0H         LINE#         4
+  C:0EB0H         LINE#         6
+  C:0EBEH         LINE#         7
+  C:0ECAH         LINE#         8
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 19
+
+
+  C:0ED1H         LINE#         9
+  C:0ED3H         LINE#         10
+  C:0ED3H         LINE#         11
   -------         ENDPROC       LED_IRQ_FUN
   -------         PROC          TIME_PWM
   -------         DO            
   X:0282H         SYMBOL        flag
   -------         ENDDO         
-  C:0E87H         LINE#         13
-  C:0E87H         LINE#         14
-  C:0E87H         LINE#         16
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 19
-
-
-  C:0E8EH         LINE#         17
-  C:0E8EH         LINE#         18
-  C:0E91H         LINE#         19
-  C:0E94H         LINE#         20
-  C:0E96H         LINE#         22
-  C:0E96H         LINE#         23
-  C:0E99H         LINE#         24
-  C:0E9CH         LINE#         25
-  C:0E9CH         LINE#         26
-  C:0EAAH         LINE#         27
+  C:0ED4H         LINE#         13
+  C:0ED4H         LINE#         14
+  C:0ED4H         LINE#         16
+  C:0EDBH         LINE#         17
+  C:0EDBH         LINE#         18
+  C:0EDEH         LINE#         19
+  C:0EE1H         LINE#         20
+  C:0EE3H         LINE#         22
+  C:0EE3H         LINE#         23
+  C:0EE6H         LINE#         24
+  C:0EE9H         LINE#         25
+  C:0EE9H         LINE#         26
+  C:0EF7H         LINE#         27
   -------         ENDPROC       TIME_PWM
   -------         PROC          TIME_DEMO
-  C:0F05H         LINE#         29
-  C:0F05H         LINE#         30
-  C:0F05H         LINE#         31
-  C:0F0EH         LINE#         32
-  C:0F19H         LINE#         33
+  C:0F52H         LINE#         29
+  C:0F52H         LINE#         30
+  C:0F52H         LINE#         31
+  C:0F5BH         LINE#         32
+  C:0F66H         LINE#         33
   -------         ENDPROC       TIME_DEMO
   -------         ENDMOD        TIME_DEMO
 
@@ -1117,8 +1128,8 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00D8H         PUBLIC        CCON
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
-  C:0F37H         PUBLIC        uart_demo
-  C:0F1EH         SYMBOL        _delay_ms
+  C:0F84H         PUBLIC        uart_demo
+  C:0F6BH         SYMBOL        _delay_ms
   D:00D0H         PUBLIC        PSW
   -------         PROC          _DELAY_MS
   D:0006H         SYMBOL        n
@@ -1126,29 +1137,29 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0005H         SYMBOL        i
   D:0004H         SYMBOL        j
   -------         ENDDO         
-  C:0F1EH         LINE#         4
-  C:0F1EH         LINE#         5
-  C:0F1EH         LINE#         8
-  C:0F1EH         LINE#         9
-  C:0F1EH         LINE#         11
-  C:0F27H         LINE#         12
-  C:0F29H         LINE#         13
-  C:0F36H         LINE#         14
+  C:0F6BH         LINE#         4
+  C:0F6BH         LINE#         5
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 20
+
+
+  C:0F6BH         LINE#         8
+  C:0F6BH         LINE#         9
+  C:0F6BH         LINE#         11
+  C:0F74H         LINE#         12
+  C:0F76H         LINE#         13
+  C:0F83H         LINE#         14
   -------         ENDPROC       _DELAY_MS
   -------         PROC          UART_DEMO
   -------         DO            
   X:028BH         SYMBOL        c
   -------         ENDDO         
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 20
-
-
-  C:0F37H         LINE#         17
-  C:0F37H         LINE#         18
-  C:0F37H         LINE#         20
-  C:0F3EH         LINE#         23
-  C:0F3EH         LINE#         25
-  C:0F47H         LINE#         28
-  C:0F4EH         LINE#         29
+  C:0F84H         LINE#         17
+  C:0F84H         LINE#         18
+  C:0F84H         LINE#         20
+  C:0F8BH         LINE#         23
+  C:0F8BH         LINE#         25
+  C:0F94H         LINE#         28
+  C:0F9BH         LINE#         29
   -------         ENDPROC       UART_DEMO
   -------         ENDMOD        UART_DEMO
 
@@ -1165,29 +1176,32 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00A8H         PUBLIC        IE
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
-  C:0FA6H         PUBLIC        exint_demo
+  C:0FF3H         PUBLIC        exint_demo
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   B:00B0H.5       PUBLIC        P35
-  C:1078H         PUBLIC        exint1isr1
+  C:10C2H         PUBLIC        exint1isr1
   D:00D0H         PUBLIC        PSW
   -------         PROC          EXINT1ISR1
-  C:1078H         LINE#         3
-  C:1078H         LINE#         4
-  C:1078H         LINE#         5
-  C:107AH         LINE#         6
+  C:10C2H         LINE#         3
+  C:10C2H         LINE#         4
+  C:10C2H         LINE#         5
+  C:10C4H         LINE#         6
   -------         ENDPROC       EXINT1ISR1
   -------         PROC          EXINT_DEMO
-  C:0FA6H         LINE#         8
-  C:0FA6H         LINE#         9
-  C:0FA6H         LINE#         10
-  C:0FADH         LINE#         11
+  C:0FF3H         LINE#         8
+  C:0FF3H         LINE#         9
+  C:0FF3H         LINE#         10
+  C:0FFAH         LINE#         11
   -------         ENDPROC       EXINT_DEMO
   -------         ENDMOD        EXINT_DEMO
 
   -------         MODULE        INNER_EEPROM_DEMO
   C:0000H         SYMBOL        _ICE_DUMMY_
   D:0080H         PUBLIC        P0
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 21
+
+
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
   D:00B0H         PUBLIC        P3
@@ -1199,14 +1213,11 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   C:0943H         PUBLIC        inner_eeprom_demo
   D:00B8H         PUBLIC        IP
   D:00D8H         PUBLIC        CCON
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 21
-
-
   D:0098H         PUBLIC        SCON
   D:0088H         PUBLIC        TCON
   B:00B0H.5       PUBLIC        P35
   C:05B2H         SYMBOL        _?ix1000
-  C:0F50H         SYMBOL        _delay_ms
+  C:0F9DH         SYMBOL        _delay_ms
   D:00D0H         PUBLIC        PSW
   -------         PROC          _DELAY_MS
   D:0006H         SYMBOL        n
@@ -1214,40 +1225,48 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:0005H         SYMBOL        i
   D:0004H         SYMBOL        j
   -------         ENDDO         
-  C:0F50H         LINE#         7
-  C:0F50H         LINE#         8
-  C:0F50H         LINE#         11
-  C:0F50H         LINE#         12
-  C:0F50H         LINE#         14
-  C:0F59H         LINE#         15
-  C:0F5BH         LINE#         16
-  C:0F68H         LINE#         17
+  C:0F9DH         LINE#         7
+  C:0F9DH         LINE#         8
+  C:0F9DH         LINE#         11
+  C:0F9DH         LINE#         12
+  C:0F9DH         LINE#         14
+  C:0FA6H         LINE#         15
+  C:0FA8H         LINE#         16
+  C:0FB5H         LINE#         17
   -------         ENDPROC       _DELAY_MS
   -------         PROC          INNER_EEPROM_DEMO
   -------         DO            
   X:0000H         SYMBOL        buff
   X:0200H         SYMBOL        i
+  C:0A3DH         SYMBOL        ERROR
   -------         ENDDO         
   C:0943H         LINE#         19
   C:0943H         LINE#         20
   C:0943H         LINE#         21
   C:0956H         LINE#         24
-  C:095FH         LINE#         26
-  C:0966H         LINE#         28
-  C:096DH         LINE#         29
-  C:0980H         LINE#         30
-  C:099AH         LINE#         31
-  C:09B0H         LINE#         33
-  C:09C7H         LINE#         34
-  C:09D3H         LINE#         35
-  C:09E3H         LINE#         36
-  C:09F9H         LINE#         37
-  C:0A10H         LINE#         38
-  C:0A1FH         LINE#         39
-  C:0A2FH         LINE#         41
-  C:0A2FH         LINE#         42
-  C:0A31H         LINE#         43
-  C:0A38H         LINE#         44
+  C:095FH         LINE#         27
+  C:096BH         LINE#         29
+  C:096BH         LINE#         30
+  C:096BH         LINE#         32
+  C:096BH         LINE#         35
+  C:0972H         LINE#         36
+  C:0985H         LINE#         37
+  C:099FH         LINE#         38
+  C:09B4H         LINE#         42
+  C:09CBH         LINE#         43
+  C:09D7H         LINE#         44
+  C:09E7H         LINE#         45
+  C:09FCH         LINE#         47
+  C:0A13H         LINE#         48
+  C:0A22H         LINE#         49
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 22
+
+
+  C:0A32H         LINE#         51
+  C:0A32H         LINE#         52
+  C:0A34H         LINE#         53
+  C:0A3BH         LINE#         54
+  C:0A3DH         LINE#         56
   -------         ENDPROC       INNER_EEPROM_DEMO
   -------         ENDMOD        INNER_EEPROM_DEMO
 
@@ -1259,9 +1278,6 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   D:00B0H         PUBLIC        P3
   D:00C0H         PUBLIC        P4
   D:00C8H         PUBLIC        P5
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 22
-
-
   D:00E8H         PUBLIC        P6
   D:00F8H         PUBLIC        P7
   D:00A8H         PUBLIC        IE
@@ -1303,6 +1319,9 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   -------         MODULE        ?C?IMUL
   C:0196H         PUBLIC        ?C?IMUL
   -------         ENDMOD        ?C?IMUL
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 23
+
+
 
   -------         MODULE        ?C?IILDX
   C:01A8H         PUBLIC        ?C?IILDX
@@ -1319,12 +1338,9 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   -------         MODULE        ?C?ULDIV
   C:023BH         PUBLIC        ?C?ULDIV
   -------         ENDMOD        ?C?ULDIV
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 23
-
-
 
   -------         MODULE        ?C?SLDIV
-  C:0D46H         PUBLIC        ?C?SLDIV
+  C:0D93H         PUBLIC        ?C?SLDIV
   -------         ENDMOD        ?C?SLDIV
 
   -------         MODULE        ?C?LNEG
@@ -1363,6 +1379,9 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
   -------         MODULE        ?C?PLDXDATA
   C:036CH         PUBLIC        ?C?PLDXDATA
   -------         ENDMOD        ?C?PLDXDATA
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  22:28:20  PAGE 24
+
+
 
   -------         MODULE        ?C?PLDPDATA
   C:0375H         PUBLIC        ?C?PLDPDATA
@@ -1379,9 +1398,6 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
     SEGMENT: ?PR?GETCHAR?UART0_DRV
 
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/16/2019  18:37:16  PAGE 24
-
-
     SEGMENT: ?PR?_PRINTF?PRINTF
 
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
@@ -1399,5 +1415,5 @@ SYMBOL TABLE OF MODULE:  .\output\IAPstc15w4k61s4_Demo (LED_API)
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?EXINT_DEMO?EXINT_DEMO
 
-Program Size: data=25.4 xdata=652 code=4215
+Program Size: data=25.4 xdata=652 code=4289
 LINK/LOCATE RUN COMPLETE.  8 WARNING(S),  0 ERROR(S)
