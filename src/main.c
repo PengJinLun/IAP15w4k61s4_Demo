@@ -19,7 +19,11 @@ int main(void)
 	   exint_demo();
 	#endif
 
-	inner_eeprom_demo();
+	#ifdef INNER_EEPROM_EN
+		inner_eeprom_demo();
+	#endif
+
+	adc_demo();
 
 	while(1){
 	}
