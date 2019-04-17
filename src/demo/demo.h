@@ -7,11 +7,13 @@
 #include "exint_demo.h"
 #include "inner_eeprom_demo.h"
 #include "adc_demo.h"
+#include "ds18b20_demo.h"
 
 //#define LED_DEMO_EN
 //#define TIME_DEMO_EN
 //#define UART_DEMO_EN
 //#define EXINT_DEMO_EN
 //#define INNER_EEPROM_EN
+//#define ADC_DEMO_EN
 #endif
 

@@ -22,9 +22,11 @@ int main(void)
 	#ifdef INNER_EEPROM_EN
 		inner_eeprom_demo();
 	#endif
+	#ifdef ADC_DEMO_EN
+		adc_demo();
+	#endif
 
-	adc_demo();
-
+	DS18b20_Demo();
 	while(1){
 	}
 

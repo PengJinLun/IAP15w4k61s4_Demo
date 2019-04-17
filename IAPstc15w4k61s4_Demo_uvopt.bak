@@ -195,10 +195,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>18</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>10</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\api\uart_api.c</PathWithFileName>
       <FilenameWithoutPath>uart_api.c</FilenameWithoutPath>
@@ -221,7 +221,7 @@
       <GroupNumber>1</GroupNumber>
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -230,34 +230,6 @@
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\api\inner_eeprom_api.c</PathWithFileName>
       <FilenameWithoutPath>inner_eeprom_api.c</FilenameWithoutPath>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>9</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>11</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\api\adc_api.c</PathWithFileName>
-      <FilenameWithoutPath>adc_api.c</FilenameWithoutPath>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>52</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>24</TopLine>
-      <CurrentLine>24</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\api\ds18b20_api.c</PathWithFileName>
-      <FilenameWithoutPath>ds18b20_api.c</FilenameWithoutPath>
     </File>
   </Group>
 
@@ -314,10 +286,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>7</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\drv\uart0_drv.c</PathWithFileName>
       <FilenameWithoutPath>uart0_drv.c</FilenameWithoutPath>
@@ -350,34 +322,6 @@
       <PathWithFileName>.\src\drv\inner_eeprom_drv.c</PathWithFileName>
       <FilenameWithoutPath>inner_eeprom_drv.c</FilenameWithoutPath>
     </File>
-    <File>
-      <GroupNumber>2</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>13</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>27</TopLine>
-      <CurrentLine>27</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\drv\adc_drv.c</PathWithFileName>
-      <FilenameWithoutPath>adc_drv.c</FilenameWithoutPath>
-    </File>
-    <File>
-      <GroupNumber>2</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>10</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>56</TopLine>
-      <CurrentLine>56</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\drv\ds18b20_drv.c</PathWithFileName>
-      <FilenameWithoutPath>ds18b20_drv.c</FilenameWithoutPath>
-    </File>
   </Group>
 
   <Group>
@@ -405,27 +349,13 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>12</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>123</TopLine>
-      <CurrentLine>138</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\common\printf.c</PathWithFileName>
       <FilenameWithoutPath>printf.c</FilenameWithoutPath>
-    </File>
-    <File>
-      <GroupNumber>3</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>12</TopLine>
-      <CurrentLine>22</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\common\delay.c</PathWithFileName>
-      <FilenameWithoutPath>delay.c</FilenameWithoutPath>
     </File>
   </Group>
 
@@ -449,8 +379,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>3</CurrentLine>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\demo\led_demo.c</PathWithFileName>
       <FilenameWithoutPath>led_demo.c</FilenameWithoutPath>
@@ -475,10 +405,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>1</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>8</TopLine>
-      <CurrentLine>20</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>24</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\demo\uart_demo.c</PathWithFileName>
       <FilenameWithoutPath>uart_demo.c</FilenameWithoutPath>
@@ -511,39 +441,11 @@
       <PathWithFileName>.\src\demo\inner_eeprom_demo.c</PathWithFileName>
       <FilenameWithoutPath>inner_eeprom_demo.c</FilenameWithoutPath>
     </File>
-    <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>28</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>20</TopLine>
-      <CurrentLine>28</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\demo\adc_demo.c</PathWithFileName>
-      <FilenameWithoutPath>adc_demo.c</FilenameWithoutPath>
-    </File>
-    <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>0</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>0</Focus>
-      <ColumnNumber>7</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>8</TopLine>
-      <CurrentLine>26</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\src\demo\ds18b20_demo.c</PathWithFileName>
-      <FilenameWithoutPath>ds18b20_demo.c</FilenameWithoutPath>
-    </File>
   </Group>
 
   <Group>
     <GroupName>include</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -573,10 +475,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>4</ColumnNumber>
+      <ColumnNumber>68</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>5</TopLine>
-      <CurrentLine>16</CurrentLine>
+      <TopLine>13</TopLine>
+      <CurrentLine>13</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\src\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -605,9 +507,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\workspace\IAP15w4k61s4_Demo\src\common\delay.h</PathWithFilename>
+    <PathWithFilename>E:\WorkSpace\IAP15w4k61s4_Demo\src\demo\demo.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>5</CurrentLine>
+    <CurrentLine>14</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -635,43 +537,19 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>3</ActiveTab>
+      <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
-          <Name>.\src\drv\ds18b20_drv.c</Name>
-          <ColumnNumber>14</ColumnNumber>
-          <TopLine>104</TopLine>
-          <CurrentLine>104</CurrentLine>
+          <Name>.\src\main.c</Name>
+          <ColumnNumber>68</ColumnNumber>
+          <TopLine>13</TopLine>
+          <CurrentLine>13</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\src\common\delay.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>12</TopLine>
-          <CurrentLine>22</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\src\common\delay.h</Name>
-          <ColumnNumber>27</ColumnNumber>
+          <Name>.\src\demo\demo.h</Name>
+          <ColumnNumber>25</ColumnNumber>
           <TopLine>1</TopLine>
-          <CurrentLine>5</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\src\demo\ds18b20_demo.c</Name>
-          <ColumnNumber>19</ColumnNumber>
-          <TopLine>11</TopLine>
-          <CurrentLine>11</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\src\demo\led_demo.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>3</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\src\api\uart_api.c</Name>
-          <ColumnNumber>18</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>10</CurrentLine>
+          <CurrentLine>14</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

@@ -372,16 +372,6 @@
               <FileType>1</FileType>
               <FilePath>.\src\api\inner_eeprom_api.c</FilePath>
             </File>
-            <File>
-              <FileName>adc_api.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\api\adc_api.c</FilePath>
-            </File>
-            <File>
-              <FileName>ds18b20_api.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\api\ds18b20_api.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -417,16 +407,6 @@
               <FileType>1</FileType>
               <FilePath>.\src\drv\inner_eeprom_drv.c</FilePath>
             </File>
-            <File>
-              <FileName>adc_drv.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\drv\adc_drv.c</FilePath>
-            </File>
-            <File>
-              <FileName>ds18b20_drv.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\drv\ds18b20_drv.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -441,11 +421,6 @@
               <FileName>printf.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\common\printf.c</FilePath>
-            </File>
-            <File>
-              <FileName>delay.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\common\delay.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -479,16 +454,6 @@
               <FileName>inner_eeprom_demo.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\demo\inner_eeprom_demo.c</FilePath>
-            </File>
-            <File>
-              <FileName>adc_demo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\demo\adc_demo.c</FilePath>
-            </File>
-            <File>
-              <FileName>ds18b20_demo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\src\demo\ds18b20_demo.c</FilePath>
             </File>
           </Files>
         </Group>
