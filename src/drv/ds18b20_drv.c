@@ -108,9 +108,9 @@ unsigned char read_byte(void)
   DQ=1;
   value>>=1;   //value=value>>1
   DQ=0;                                  
-  delay5us(2);							 //拉低4us 
+  delay2us(1);							 //拉低2us 
   DQ=1;                                  //拉高
-  delay5us(4);							 //拉高10us	 准备接收总线当前数据
+  delay5us(1);							 //拉高10us	 准备接收总线当前数据
   if(DQ)value|=0x80;					 //将当前数据值存入临时变量
   delay5us(8);                          //50 us延时  完成一次读取的延时（一次读取最少60us）跳过1us的恢复时间
  }

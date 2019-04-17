@@ -42,4 +42,4 @@ short Read_Temp()	  //short可以表示-32768~+32767
   t=(float)t*0.625;  //0.0625为12位温度采集的分辨率	   t为采集的数值  这里扩大10倍提取小数点后一位
   if(temp)return t;
   else return -t;
- }
+}
