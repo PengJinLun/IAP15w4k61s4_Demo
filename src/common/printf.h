@@ -5,7 +5,7 @@
 #define  __out_putchar  putc
 
 
-#define  MAX_NUMBER_BYTES  8
+#define  MAX_NUMBER_BYTES  32
 
 int my_printf_test(void);
 int printf(const char *fmt, ...);

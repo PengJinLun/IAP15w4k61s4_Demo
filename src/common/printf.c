@@ -89,7 +89,7 @@ static int my_vprintf(const char *fmt, va_list ap)
 			fmt++;
 		}
 		
-			switch (*fmt) {
+			 switch (*fmt) {
 		case 'd': out_num(va_arg(ap, int),          10,lead,maxwidth); break;
 		case 'o': out_num(va_arg(ap, unsigned int),  8,lead,maxwidth); break;				
 		case 'u': out_num(va_arg(ap, unsigned int), 10,lead,maxwidth); break;

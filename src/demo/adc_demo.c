@@ -21,6 +21,7 @@ static void delay_ms(unsigned int n)		//@24.000MHz
 void adc_demo(void)
 {
 	unsigned int n = 0;
+	char buf[6] = {0};
 	uart_init(UART0, 9600);
 	//Init_ADC(ADC0, ADC_SPEED_LL);
 
@@ -28,7 +29,14 @@ void adc_demo(void)
 	{
 		n = GetADCResult(ADC0);
 		n = (float)n*5*100/1024;
-		printf("%d\r\n", n);
+		buf[0] = n/100%10 + '0';	
+		buf[1] = '.';
+		buf[2] = n/10%10 + '0';
+		buf[3] = n%10 + '0';
+		buf[4] = ' ';
+		//buf[5] = '\0';
+		//printf("%s\r\n","abc");
+		puts(buf);
 		P35 = !P35;
 		delay_ms(500);
 
