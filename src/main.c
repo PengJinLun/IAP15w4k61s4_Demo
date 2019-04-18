@@ -1,6 +1,8 @@
 #include "iapw4k61s4.h"
 #include "demo.h"
 
+
+
 int main(void)
 {
 	#ifdef LED_DEMO_EN
@@ -26,7 +28,18 @@ int main(void)
 		adc_demo();
 	#endif
 
-	DS18b20_Demo();
+	Relay_disable();
+
+	#ifdef DS18B20_DEMO_EN
+		DS18b20_Demo();
+	#endif
+
+    #ifdef RELAY_DEMO_EN
+		Relay_Demo();
+	#endif
+
+
+
 	while(1){
 	}
 
